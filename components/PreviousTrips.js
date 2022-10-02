@@ -9,7 +9,7 @@ export default function PreviousTrips() {
     return (
     <View style={styles.container}>
         <Text>
-            jj
+              
         </Text>
         <FlatListComponent/>
       <StatusBar style="auto" />

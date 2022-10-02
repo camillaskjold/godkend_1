@@ -7,7 +7,7 @@ export default function Packs() {
   return (
     <View style={styles.container}>
         <Text>
-            Our Packs
+            Our Pack options 
         </Text>
       <StatusBar style="auto" />
     </View>
