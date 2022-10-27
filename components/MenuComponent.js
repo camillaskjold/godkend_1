@@ -47,7 +47,7 @@ export default function MenuComponent({navigation}) {
       {/*Knap til contact -> sender bruger videre til mulighed for at kontakte virksomheden*/}
       <View style={styles.contact}>
       <ButtonComponent
-        onPress = {()=> console.log('test5')}
+        onPress = {()=> navigation.navigate('Contact')}
         title = {'Contact Us'}
     />
       </View>
