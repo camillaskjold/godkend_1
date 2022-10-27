@@ -19,7 +19,7 @@ export default function MenuComponent({navigation}) {
         
         {/*Knap til plan trip -> sender bruger videre til plan trip mulighed*/}
         <ButtonComponent
-          onPress = {()=> console.log('test')}
+          onPress = {()=> navigation.navigate('PlanTrip')}
           title = {'Plan Trip'}
       />
       </View>
@@ -33,14 +33,14 @@ export default function MenuComponent({navigation}) {
       {/*Knap til inspiration -> sender bruger videre til side med inspiration */}
       <View style={styles.inspiration}>
         <ButtonComponent
-          onPress = {()=> console.log('test3')}
+          onPress = {()=> navigation.navigate('Inspiration')}
           title = {'Inspiration'}
           />
       </View>
       {/*Knap til profile -> sender bruger videre oversigt med deres egen information*/}
       <View style={styles.profile}>
       <ButtonComponent
-        onPress = {()=> console.log('test4')}
+        onPress = {()=> navigation.navigate('Profile')}
         title = {'Profile'}
     />
       </View>
