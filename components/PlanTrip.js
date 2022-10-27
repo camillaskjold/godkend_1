@@ -4,13 +4,13 @@ import * as React from 'react';
 import ButtonComponent from './ButtonComponent';
 
 //Contact us funktion, skal senere hen connectes til mail
-export default function PlanTrip() {
+export default function PlanTrip({navigation}) {
     return (
     <View style={styles.container}>
         <Text style={styles.Title}> Here you have different options for booking a pack</Text>
         <View style={styles.quiz}>
         <ButtonComponent
-          onPress = {()=> console.log('Quiz test')}
+          onPress = {()=> navigation.navigate('Quiz')}
           title = {'Take quiz'}
         />
         </View>

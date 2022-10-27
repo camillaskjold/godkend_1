@@ -3,20 +3,20 @@ import { StyleSheet, Text, View } from 'react-native';
 import * as React from 'react';
 
 // funktion der på senere tidspunkt skal kunne vise alt info om pakkeløsninger
-export default function Inspiration() {
+export default function Quiz() {
   return (
     <View style={styles.container}>
         <Text>
             On this page you will in the future be able to:
         </Text>
         <Text>
-            - See inspiration for different adventures
+            - Take a quiz that determines a personalized packinglist 
         </Text>
         <Text>
-            - Read tips and tricks
+            - You will be able to select things as; gender, destination, temperature, weight ect.
         </Text>
         <Text>
-            - How to's
+            - There will also be an option to add multiple people to the booking - all ages
         </Text>
       <StatusBar style="auto" />
     </View>
