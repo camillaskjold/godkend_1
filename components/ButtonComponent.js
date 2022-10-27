@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { Button, StyleSheet, Text, View, Pressable} from 'react-native';
 import React from 'react';
 
+//Skabelon for button
 export default function ButtonComponent(props) {
     const {title, onPress} = props;
   return (
@@ -17,7 +18,7 @@ export default function ButtonComponent(props) {
 }
 
 const styles = StyleSheet.create({
-
+//styling af button
   button: {
     alignItems: 'center',
     justifyContent: 'center',
@@ -34,6 +35,7 @@ const styles = StyleSheet.create({
     shadowOffset: {width: -1.5, height: 3},
   
   },
+  //styling af teksten i button
   text: {
     fontSize: 16,
     lineHeight: 21,

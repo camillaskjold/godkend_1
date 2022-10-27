@@ -6,11 +6,10 @@ import FlatListComponent from './FlatListComponent';
 
 export default function PreviousTrips() {
   
+  //funktion der henter liste med previous trips fra array i flatlistcomponent
     return (
     <View style={styles.container}>
-        <Text>
-              
-        </Text>
+        <Text></Text>
         <FlatListComponent/>
       <StatusBar style="auto" />
     </View>
@@ -24,6 +23,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  //styling af overskift
   bigGreen: {
     color: 'green',
     fontWeight: 'bold',

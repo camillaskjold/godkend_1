@@ -7,7 +7,7 @@ import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 
 
-
+//mainscreen
 export default function App() {
   return (
     <NavigationContainer>

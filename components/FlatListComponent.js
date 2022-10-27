@@ -1,7 +1,6 @@
 import * as React from "react";
 import {Text, StyleSheet, View, FlatList} from 'react-native';
-import { PREVIOUSTRIPS } from "../const";
-import { testlist } from "../const";
+import {PrevTripsList } from "../const";
 
 export const FlatListComponent = (props) => { 
 
@@ -17,10 +16,12 @@ export const FlatListComponent = (props) => {
     <View style={styles.container}>
       <Text style={styles.bigGreen}>Previous Trips</Text>
       <Text style={styles.smallGreen}>Here is an overview of you previous purchases:</Text>
+     {/* Viser liste af previous trips fra array og viser dem i listeform*/}
       <View>
       <FlatList
             style = {{height:80}}
-            data = {testlist}
+            data = {PrevTripsList}
+            /*Gengiver item fra array med previous trips*/
             renderItem={({ item }) => {
                 return(
                     <View>
