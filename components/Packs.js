@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import * as React from 'react';
 
 // funktion der på senere tidspunkt skal kunne vise alt info om pakkeløsninger
+//Indtil videre bare simple tekstbokse
 export default function Packs() {
   return (
     <View style={styles.container}>

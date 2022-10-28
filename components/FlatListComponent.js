@@ -45,15 +45,17 @@ export const FlatListComponent = (props) => {
 }
 
 export default FlatListComponent; 
-
+//styling af container og baggrundsfarve
 const styles = StyleSheet.create({
     container: {
       backgroundColor: '#fff',
       flex:1
     },
+    //scroll på siden 
     inlineScroll:{
       height:800
     },
+    //styling af overskrift
     bigGreen: {
       color: 'green',
       fontWeight: 'bold',
@@ -65,6 +67,7 @@ const styles = StyleSheet.create({
       textShadowOffset: {width: -1, height: 1}, 
       textShadowRadius: 1,
     },
+    //styling af mindre skrift
     smallGreen: {
         color: 'green',
         fontWeight: 'bold',
@@ -76,6 +79,7 @@ const styles = StyleSheet.create({
         textShadowOffset: {width: -1, height: 1}, 
         textShadowRadius: 1,
       },
+      //styling, men bliver ikke anvendt til noget længere
     EtEllerAndetTitleStyle: {
         color: "green",
         fontSize: 30,
@@ -85,6 +89,7 @@ const styles = StyleSheet.create({
         textShadowRadius: 10,
 
   },
+  //styling af lille grøn tekst
     tinyGreen: {
         color: 'green',
         fontWeight: 'bold',

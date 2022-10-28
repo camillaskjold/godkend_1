@@ -2,7 +2,8 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import * as React from 'react';
 
-// funktion der på senere tidspunkt skal kunne vise alt info om pakkeløsninger
+// funktion der på senere tidspunkt skal kunne give brugeren mulighed for at tage en quiz
+//Indtil videre bare simple tekstbokse
 export default function Quiz() {
   return (
     <View style={styles.container}>

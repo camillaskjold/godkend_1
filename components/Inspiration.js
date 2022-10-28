@@ -2,7 +2,8 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import * as React from 'react';
 
-// funktion der på senere tidspunkt skal kunne vise alt info om pakkeløsninger
+// funktion der på senere tidspunkt skal kunne give brugeren inspiration til fremtidige ture
+// Indtil videre er der bare simple tekstbokse på siden
 export default function Inspiration() {
   return (
     <View style={styles.container}>
@@ -23,7 +24,7 @@ export default function Inspiration() {
   );
 }
 
-//style af container
+//style af container + baggrundsfarve
 const styles = StyleSheet.create({
   container: {
     flex: 1,

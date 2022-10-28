@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import * as React from 'react';
 import ButtonComponent from './ButtonComponent';
 
-//Contact us funktion, skal senere hen connectes til mail
+//Plan Trip med tilhørende knapper
 export default function PlanTrip({navigation}) {
     return (
     <View style={styles.container}>
@@ -53,26 +53,26 @@ export default function PlanTrip({navigation}) {
     right: 40
     },
 
-    //styling af knap til name
+    //styling af knap til quiz
     quiz: {
     position: 'absolute',
     top: 250,
     left: 35
     },
 
-    //styling af billing info
+    //styling af køb
     buy: {
     position: 'absolute',
     top: 420,
     right: 35
     },
-    //styling af change email
+    //styling af pakke oversigt knap
     packs: {
     position: 'absolute',
     top: 250,
     right: 35
     },
-    //styling af personal info knap
+    //styling af rent knap
     rent: {
     position: 'absolute',
     top: 420,

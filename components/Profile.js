@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import * as React from 'react';
 import ButtonComponent from './ButtonComponent';
 
-//Contact us funktion, skal senere hen connectes til mail
+//Contact us funktion, skal senere hen connectes en bruger som er logget ind
 export default function Profile() {
     return (
     <View style={styles.container}>
